@@ -8,7 +8,7 @@ console.log(accountId)
 
 
 accountEmail="xyz@gmail.com" 
-accountPassword=0987
+accountPassword=987
 accountCity="takiya behram shah"
 
 let accountState          //---->>>without initialization :by default undefined
