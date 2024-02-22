@@ -48,3 +48,20 @@ console.log(Object.entries(obj2));
 
 console.log(obj.hasOwnProperty('key'))
 console.log(obj.hasOwnProperty('email'))
+
+// object destructuring 
+
+const course={
+    courseName: "js mastery ",
+    price:"free",
+    CourseInstructor: "Wakeel Ahmad Kumar"
+}
+
+console.log(course.CourseInstructor);
+
+const {CourseInstructor}=course
+
+console.log(CourseInstructor)
+
+const {CourseInstructor: instrctor}=course
+console.log(instrctor)
