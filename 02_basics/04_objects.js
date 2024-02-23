@@ -65,3 +65,26 @@ console.log(CourseInstructor)
 
 const {CourseInstructor: instrctor}=course
 console.log(instrctor)
+
+
+///destructuring the object
+console.log("************destructuring the object**************");
+
+const courseObject={
+    cName: "js mastry",
+    CourseInstructorName:"wakeel",
+    
+}
+
+console.log(courseObject.CourseInstructorName);
+
+const {CourseInstructorName}=courseObject;
+console.log(CourseInstructorName)
+
+ 
+
+const {CourseInstructorName: instName}=courseObject;
+
+console.log(instName);
+
+
