@@ -10,11 +10,22 @@ const user={
     price:199,
 }
 
-const  objectHandle=function(anyobj){
+function objectHandle(anyobj){
     console.log(`user name is ${this.uname} and price is ${anyobj.price}`)
 }
 
 objectHandle(user); // op:user name is undefined and price is 199      ////---->i,e we cant use this inside the function
 
 
- 
+ //js functions can be used as variables
+   
+  //console.log(addtwo(7))   //op: ReferenceError: Cannot access 'addtwo' before initialization
+ const addtwo=function(Num){
+    return Num+2;
+ }
+ console.log(addtwo(7))
+ console.log(add1(5)) //OP: 6 without any error 
+
+ function add1(Num){
+    return Num+1
+ }
